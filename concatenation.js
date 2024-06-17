@@ -9,7 +9,9 @@ submitButton.addEventListener("click", function() {
     let birthYear = document.querySelector(".year").value;
     let age = 2023 - birthYear; // update to 2024, if necessary
     // 1. Declare a variable to save the value of the city the user is from.
-
+    let city= document.querySelector(".city").value;
+    results.innerHTML="My name is " + (myName)+". I'm feeling "+ (mood)+" and I absolutely lovveeee eating "+ (food)+" 😍. I was born in "+ (birthYear)+" and I am so thankful that I am in an air conditioned room.";
+    
     // 2. Below write your sentences! 
     // - Have them show up in the div with class "results".
     // - Example paragraph: "My name is (myName). I'm feeling (mood) and I absolutely lovveeee eating (food) 😍..."
